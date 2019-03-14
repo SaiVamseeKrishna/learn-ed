@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vintagebluewalltexturebackground"
+    tools:context="com.example.omis_651.view.RewardpointsActivity">
+
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:paddingRight="0dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:inputType="textPersonName"
+        android:text="Your Reward Points"/>
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_below="@+id/editText2"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:background="@drawable/shape"
+        android:inputType="textPersonName"
+        android:text="400" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:lines="2"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="136dp"
+        android:text="                          Good going !!\n    Earn 600 more to unlock new courses !!!!" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.omis_651">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/learnedforfacebook"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name="com.activeandroid.app.Application">
+        <meta-data android:name="AA_DB_NAME" android:value="udemy.db" />
+        <meta-data android:name="AA_DB_VERSION" android:value="1" />
+        <activity android:name=".view.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.SignupActivity" />
+        <activity
+            android:name=".view.CourseListActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".view.CourseDetailActivity" />
+        <activity android:name=".view.RewardpointsActivity" />
+        <activity android:name=".view.DummyActivity"></activity>
+        <activity android:name=".view.DiffcoursesActivity"></activity>
+    </application>
+
+</manifest>
